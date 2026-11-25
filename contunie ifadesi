@@ -3,7 +3,6 @@ user_word = input("Bir kelime girin: ")
 user_word = user_word.upper()
 
 for letter in user_word:
-    # A, E, I, O, U sesli harflerini atla
     if letter == "A":
         continue
     elif letter == "E":
